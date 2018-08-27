@@ -6,11 +6,11 @@
 #' @param ... additional arguments provided to \@code{html_document}
 #' @export
 #'
-my_html_format = function(toc = TRUE, ...) {
+ssdxj_format = function(toc = TRUE, ...) {
 
   # locations of resource files in the package
   pkg_resource = function(...) {
-    system.file(..., package = "MyTemplates")
+    system.file(..., package = "G407tp")
   }
 
   css    = pkg_resource("rmarkdown/resources/styles.css")

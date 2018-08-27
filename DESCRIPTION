@@ -1,11 +1,10 @@
 Package: G407tp
 Type: Package
-Title: What the Package Does (Title Case)
+Title: Rmarkdown template
 Version: 0.1.0
-Author: Who wrote it
-Maintainer: The package maintainer <yourself@somewhere.net>
-Description: More about what it does (maybe more than one line)
-    Use four spaces when indenting paragraphs within the Description.
-License: What license is it under?
+Author: Li
+Maintainer: Li<purewangli@gmail.com>
+Description: Rmarkdown template modified from GitHub 'mikey-harper/example-rmd-templates'
+License: GPL (>=2)
 Encoding: UTF-8
 LazyData: true
