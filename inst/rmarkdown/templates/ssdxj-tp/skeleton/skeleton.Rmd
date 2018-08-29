@@ -21,7 +21,5 @@ suppressPackageStartupMessages(library(cowplot))
 suppressPackageStartupMessages(library(scales))
 suppressPackageStartupMessages(library(G407))
 
-
-
 theme_set(theme_pubr())
 ```
