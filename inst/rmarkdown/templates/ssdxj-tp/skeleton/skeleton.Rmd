@@ -9,9 +9,19 @@ output:
 
 # preloads
 ```{r include=FALSE}
-library(tidyverse)
-library(ggpubr)
-library(ggsci)
+suppressPackageStartupMessages(library(knitr))
+
+suppressPackageStartupMessages(library(tidyverse))
+
+suppressPackageStartupMessages(library(ggpubr))
+suppressPackageStartupMessages(library(ggsci))
+suppressPackageStartupMessages(library(viridis))
+suppressPackageStartupMessages(library(cowplot))
+
+suppressPackageStartupMessages(library(scales))
+suppressPackageStartupMessages(library(G407))
+
+
 
 theme_set(theme_pubr())
 ```
