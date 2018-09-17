@@ -9,12 +9,12 @@
 ssdxj_format = function(toc = TRUE, ...) {
 
   # locations of resource files in the package
-  pkg_resource = function(...) {
-    system.file(..., package = "G407tp")
+  pkg_resource <- function(...) {
+    system.file(..., package = "g418tp")
   }
 
-  css    = pkg_resource("rmarkdown/resources/styles.css")
-  footer = pkg_resource("rmarkdown/resources/footer.html")
+  css    <- pkg_resource("rmarkdown/resources/styles.css")
+  footer <- pkg_resource("rmarkdown/resources/footer.html")
 
   # call the base html_document function
   rmarkdown::html_document(
