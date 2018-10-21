@@ -3,23 +3,22 @@ title: "Untitled"
 author: "Li"
 date: '`r format(Sys.time(), "%d %B, %Y")`'
 output:
-  G407tp::ssdxj_format:
+  g418tp::ssdxj_format:
     toc: true
 ---
 
 # preloads
 ```{r include=FALSE}
-suppressPackageStartupMessages(library(knitr))
+library(tidyverse)
+library(hsdar)
+library(knitr)
 
-suppressPackageStartupMessages(library(tidyverse))
+library(ggpubr)
+library(ggsci)
+library(cowplot)
 
-suppressPackageStartupMessages(library(ggpubr))
-suppressPackageStartupMessages(library(ggsci))
-suppressPackageStartupMessages(library(viridis))
-suppressPackageStartupMessages(library(cowplot))
-
-suppressPackageStartupMessages(library(scales))
-suppressPackageStartupMessages(library(G407))
+library(scales)
+library(G407)
 
 theme_set(theme_pubr())
 ```
