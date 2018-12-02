@@ -10,13 +10,15 @@ output:
 # preloads
 ```{r include=FALSE}
 library(knitr)
-library(tidyverse)
 
+library(tidyverse)
 library(ggpubr)
 library(ggsci)
 library(cowplot)
-
 library(scales)
+
+library(hsdar)
+
 library(g418)
 
 theme_set(theme_pubr())
